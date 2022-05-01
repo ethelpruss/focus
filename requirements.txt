@@ -3,7 +3,7 @@ dash-core-components
 dash-html-components
 dash-renderer
 dash-table
-pandas==1.4.2
+pandas
 plotly
 dash_bootstrap_components
 app
