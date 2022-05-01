@@ -196,6 +196,7 @@ def display_graph(n):
     wks = sh[0]
     data1 = wks.get_as_df()
     data1 = pd.DataFrame(data1)
+    data1.columns =['Time', 'Values']
 
     #data1 = pd.read_csv("flatengagement_cal1.csv")
 
