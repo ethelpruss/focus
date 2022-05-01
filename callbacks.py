@@ -219,13 +219,14 @@ def display_graph(n):
 
 
     mymodel_1 =  np.poly1d(np.polyfit(X_1, y_1,5))
-
-
+    
+    new_array = np.array(data1, mymodel_1)
 
 	
     #myline = np.linspace(2.5, 200, 100)
-    fig = px.line(x=Time, y=Values, title='Engagement')
-    fig = px.line(myline, mymodel_1(my_line))
+    #fig = px.line(x=Time, y=Values, title='Engagement')
+    #fig = px.line(myline, mymodel_1(my_line))
+    fig = px.line(new_array, x="Time", y="Values", title='Engagement'
     fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
     fig.update_traces(opacity=0.6)
     return fig
