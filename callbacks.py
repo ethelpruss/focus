@@ -207,9 +207,9 @@ def display_graph(n):
     Time = data1["Time"]
 
     #myline = np.linspace(2.5, 200, 100)
-    fig = px.scatter(x=Time, y=Values, title='Engagement', trendline_options=dict(frac=0.1), trendline_color_override="#ec8785")
+    fig = px.scatter(x=Time, y=Values, title='Engagement', trendline="lowess", trendline_options=dict(frac=0.1), trendline_color_override="#ec8785")
     fig.update_traces(mode = 'lines')
-    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
+    fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark", xaxis_title="Time",yaxis_title="Engagement Score",)
     fig.update_traces(opacity=0.5)
     return fig
 
