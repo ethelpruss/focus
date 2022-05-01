@@ -159,7 +159,7 @@ def get_header():
             width = '1000 px')
             ],
             className='col-8',
-            style = {'padding-top' : '1%'}
+            style = {'padding-top' : '1%', 'align-items': 'center'}
         ),
 
         html.Div([
@@ -189,7 +189,7 @@ def get_navbar(p = 'explore'):
 
         html.Div([
             dcc.Link(
-                html.H4(children = 'Explore',
+                html.H4(children = 'Track Engagement',
                         style = navbarcurrentpage),
                 href='/apps/explore'
                 )
@@ -198,7 +198,7 @@ def get_navbar(p = 'explore'):
 
         html.Div([
             dcc.Link(
-                html.H4(children = 'Analyze'),
+                html.H4(children = 'Productivity Timer'),
                 href='/apps/analyze'
                 )
         ],
@@ -206,7 +206,7 @@ def get_navbar(p = 'explore'):
 
         html.Div([
             dcc.Link(
-                html.H4(children = 'Present'),
+                html.H4(children = 'Weekly Report'),
                 href='/apps/present'
                 )
         ],
