@@ -4,4 +4,4 @@ dash-html-components
 dash-renderer
 dash-table
 pandas
-
+gunicorn
