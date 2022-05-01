@@ -4,10 +4,8 @@ dash-html-components
 dash-renderer
 dash-table
 pandas
-plotly
+plotly == 5.6.0
 dash_bootstrap_components
-app
 plotly.express
 plotly.graph_objs
 dash.dependencies
-layouts
