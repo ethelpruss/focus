@@ -8,3 +8,7 @@ pandas
 gunicorn
 app
 layouts
+scipy
+plotly
+plotly.express
+plotly.graph_objs
