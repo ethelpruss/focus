@@ -10,5 +10,3 @@ app
 layouts
 scipy
 plotly
-plotly.express
-plotly.graph_objs
