@@ -1,6 +1,5 @@
 import plotly.graph_objs as go
 import pandas as pd
-import numpy as np
 from app import app
 from dash.dependencies import Input, Output, State
 import plotly.express as px
