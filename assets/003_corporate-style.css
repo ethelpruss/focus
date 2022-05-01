@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Html
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+  font-family: "Century Gothic" !important;
+  background: '#18191b';
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100% !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Body
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+  font-family: "Century Gothic" !important;
+  background-color: #18191b; /* By default the body color is white, making any transparent component, actually white!*/
+}
+
+
+/* Dash Dropdown
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.VirtualizedSelectOption {white-space: nowrap;}
+.dash-dropdown {color: rgb(20, 20, 20);}
+
+/* Dash Table
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+tr:hover {
+  background-color: '#F1F6F9' !important;
+}
+
+/* Img
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Century Gothic" !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: central;
+  text-align: center;
+  font-weight: 350;
+  color: rgb(251, 251, 252);
+  }
+
+p {
+  font-weight: 300;
+}
+
+/* Bootstrap overwrites */
+div.container-fluid.rounded.p-3.my-3.bg-secondary.text-white.container{
+  background-color:#18191b !important;
+}
