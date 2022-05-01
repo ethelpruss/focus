@@ -1,0 +1,21 @@
+Unpack the folder "dashboard.zip" and run the file "index.py" to run the dashboard.
+Click the link that appears in the terminal to open the dashboard in your browser.
+The link should be like this: (http://127.0.0.1:8050/).
+
+Make sure you have the required packages in requirements.txt installed!
+
+Press CTRL + C in the code window if you wish to quit the dashboard application.
+
+The following resources were used:
+
+References:
+Dashboard Template and Bootstrap with Dash guide: 
+https://towardsdatascience.com/create-a-professional-dasbhoard-with-dash-and-css-bootstrap-e1829e238fc5
+
+Plot code templates and Dash and Plotly Guides:
+www.plotly.com
+
+Dash bootstrap guide:
+https://dash-bootstrap-components.opensource.faculty.ai/
+
+Everything was either customized significantly for our purposes using the resources above or created from scratch.

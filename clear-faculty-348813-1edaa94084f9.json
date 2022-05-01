@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "clear-faculty-348813",
+  "private_key_id": "1edaa94084f9aa7f2f3eeb69b291e9cd6b0c6bd7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLPc7X6JGRqA3q\nRLNvZOY2bMf/6ZPZAeDvwUh9IliF1qsVKtR9TxrxfDN0LsyPqcRAaWBAyLVfHwoZ\nKMpj/1I3/S1sPmYVWkd+32WZ1qNGItFCUH7RCRBk4T0A3LxTSG6+iQyGmLdoaUy2\n3rGkPBV/0OPtkqAI8joCka9KZSx6DstaRxni3fJYp39+xQ0DeJxDVj2fzeykZwwA\nO400MpFig/WLwConO+9X2Z6AYhSIHJz7EByRu3iyOGPqdDHbIU9E7ewl9aqxEOgM\nue6Rl5g8oWivyGZrZHFTfMa6xle5bu4MOaKyU5X/ZkzePd76X5TlIIPVAMnZ/JTO\nuuumilkNAgMBAAECggEACRKNwLKXiO59DIebkO3qnuRVOzXEjUvZrCovH7LgS70s\n7ul2Cc/1rnDyZQ3PwNv9sDhj/RBYlFHw4/Wfrz4PAAPTusDAUtSwW1gCk47yw+c6\n+yBXwOIMMsyhKgAwgfE6TFQW1I1NpqIItCMVv/SUqxt6iTjh3vRdJY82SXZhuWMK\nSuai/Uswh/28WSdKmeKUjtH3twtv2M87kkrSU2g/F1w18IIrTZ4wefMbzVAjXZRg\nvw22526vWkHvImBQlXPwK1g+lxB4XdaRI/ooHsou4cFxfOvggafsqiUwAgYUDM+q\nnKQF+ubLdTrAfwcnq24xlzXdQUvSdXHDGNyALNC2+wKBgQDu5chkP24oL1Si2erb\n+cubEX88UMjeWER0jqmEWVF4iGprnnZ7AFuqZb9XaqjQD6c+sPeptfBNXv4ViJfz\nJKz1vM8QLN7uEe6UsDNr4OSNTlqpEyTY6k0L6nwama3/aJUIDfdFR53PHnasLQDf\nNAs5+AGVznkxrzV139nJfnIk8wKBgQDZypBO0xF5HVsOy3ljHqlVmnOYQZMAL/N6\n06yrgmdrZ6ihGNARFxTwnwIEMWy6PDBifui3tph6ZGXOa7WSFTjVrbZLeQ/JPUOU\ndluJTTjH/mSRHTKWmh/P/KONWi975ZfWekmpP2oCNLR/U/F2u3Jpar1+knIW2mJE\nHM/N0QkJ/wKBgDwt3B4MsHYk/iAL3xLMyRJmBPQvsXn5KD1oVqGFUnWXf59eiqAP\nhgfVm66sqpvG5a1wLOMudrs2y7Cm+QgB3CQHDO4ZL4svLzd7b2ikfU5vR31B2k1e\nMExpJBwbTG6DbM9bnUdxc/phxSk4KPkRBibzJ4sSOQtgBIqN+jG8zYorAoGAOtfz\nE4kNoIag8qdhPbmsENfxQYL+H7/U7ivA7HoITUmtkxEsLmHpI3YiylU8Rjk67XHS\nmMh5/B+iLhqF7VlUiM8tgMjNzhaCattrsfYuUELYkyirYWt1CvH8kpV6XORUmPtj\naZobn0r0Na7Nf8H3kKnpVwhkUO5iPHr4XmiLI6sCgYEApmjJ9RmbwcuyaiGNRZzg\nhNnlOPylZyo9fkOy2Fqf7pCqS0XzTh3hRvoR/EsmIuaaDJY+GLMtkzT++hXAJ4az\nlYUTBqNNiPZTBgaBvxOtr8Ecw9EqWyrO65FoJB0yz+dDyD9qCspvpCjmfCicgeD0\nBrBJi0STwmRjkYcuNNZoD5Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "focusbrainihacks@clear-faculty-348813.iam.gserviceaccount.com",
+  "client_id": "111666791025695489463",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/focusbrainihacks%40clear-faculty-348813.iam.gserviceaccount.com"
+}
