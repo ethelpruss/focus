@@ -226,7 +226,7 @@ def display_graph(n):
     #myline = np.linspace(2.5, 200, 100)
     #fig = px.line(x=Time, y=Values, title='Engagement')
     #fig = px.line(myline, mymodel_1(my_line))
-    fig = px.line(new_array, x="Time", y="Values", title='Engagement'
+    fig = px.line(new_array, x="Time", y="Values", title='Engagement')
     fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
     fig.update_traces(opacity=0.6)
     return fig
