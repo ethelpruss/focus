@@ -4,5 +4,4 @@ dash-html-components
 dash-renderer
 dash-table
 pandas
-dash_bootstrap_components
-dash.dependencies
+
