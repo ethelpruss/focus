@@ -207,9 +207,10 @@ def display_graph(n):
     Time = data1["Time"]
 
     #myline = np.linspace(2.5, 200, 100)
-    fig = px.line(x=Time, y=Values, title='Engagement')
+    fig = px.scatter(x=Time, y=Values, title='Engagement', trendline_options=dict(frac=0.1), trendline_color_override="#ec8785")
+    fig.update_traces(mode = 'lines')
     fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
-    fig.update_traces(opacity=0.6)
+    fig.update_traces(opacity=0.5)
     return fig
 
     # model = LinearRegression()
