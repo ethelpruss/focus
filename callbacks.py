@@ -9,9 +9,7 @@ import researchpy as rp
 import random
 from sklearn.linear_model import LinearRegression
 import pygsheets
-import numpy as np
-import matplotlib as plt
-from matplotlib import pyplot
+
 #authorization
 gc = pygsheets.authorize(service_file='clear-faculty-348813-1edaa94084f9.json')
 ## IMPORT  DATA
@@ -205,28 +203,11 @@ def display_graph(n):
     # time_start = 50
     # data_array_1 = np.array(data1)
 
-    #Values = data1["Values"]
-    #Time = data1["Time"]
-	
+    Values = data1["Values"]
+    Time = data1["Time"]
 
-    #data_array_1 = np.array(data_1)
-
-    #y_1 = data_array_1[time_start:,1]
-    #X_1 = data_array_1[time_start:,0]
-
-
-    #myline = np.linspace(2.5, len(y_1)/3, 100)
-
-
-    #mymodel_1 =  np.poly1d(np.polyfit(X_1, y_1,5))
-    
-    #new_array = np.array(data1, mymodel_1)
-
-	
     #myline = np.linspace(2.5, 200, 100)
     fig = px.line(x=Time, y=Values, title='Engagement')
-    #fig = px.line(myline, mymodel_1(my_line))
-    #fig = px.line(new_array, x="Time", y="Values", title='Engagement')
     fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
     fig.update_traces(opacity=0.6)
     return fig
