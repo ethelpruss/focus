@@ -5,7 +5,6 @@
 /* Html
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 html {
-  font-family: "Century Gothic" !important;
   background: '#18191b';
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -18,7 +17,6 @@ html {
 /* Body
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 body {
-  font-family: "Century Gothic" !important;
   background-color: #18191b; /* By default the body color is white, making any transparent component, actually white!*/
 }
 
@@ -46,7 +44,6 @@ img {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Century Gothic" !important;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 3px;
