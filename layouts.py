@@ -153,18 +153,17 @@ def get_header():
         html.Div([], className = 'col-2'), #Same as img width, allowing to have the title centrally aligned
 
         html.Div([
-            html.H1(children='FOCUS - hack your brain',
-                    style = {'textAlign' : 'center'} 
-            )],
+            html.Img(
+            src = app.get_asset_url('banner.png'),
+            height = '300 px',
+            width = '1000 px')
+            ],
             className='col-8',
             style = {'padding-top' : '1%'}
         ),
 
         html.Div([
-            html.Img(
-                    src = app.get_asset_url('logo.png'),
-                    height = '43 px',
-                    width = 'auto')
+
             ],
             className = 'col-2',
             style = {
