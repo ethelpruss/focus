@@ -10,3 +10,7 @@ app
 layouts
 scipy
 plotly
+researchpy
+datetime
+pygsheets
+sklearn
