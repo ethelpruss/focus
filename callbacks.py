@@ -205,28 +205,28 @@ def display_graph(n):
     # time_start = 50
     # data_array_1 = np.array(data1)
 
-    Values = data1["Values"]
-    Time = data1["Time"]
+    #Values = data1["Values"]
+    #Time = data1["Time"]
 	
 
-    data_array_1 = np.array(data_1)
+    #data_array_1 = np.array(data_1)
 
-    y_1 = data_array_1[time_start:,1]
-    X_1 = data_array_1[time_start:,0]
-
-
-    myline = np.linspace(2.5, len(y_1)/3, 100)
+    #y_1 = data_array_1[time_start:,1]
+    #X_1 = data_array_1[time_start:,0]
 
 
-    mymodel_1 =  np.poly1d(np.polyfit(X_1, y_1,5))
+    #myline = np.linspace(2.5, len(y_1)/3, 100)
+
+
+    #mymodel_1 =  np.poly1d(np.polyfit(X_1, y_1,5))
     
-    new_array = np.array(data1, mymodel_1)
+    #new_array = np.array(data1, mymodel_1)
 
 	
     #myline = np.linspace(2.5, 200, 100)
-    #fig = px.line(x=Time, y=Values, title='Engagement')
+    fig = px.line(x=Time, y=Values, title='Engagement')
     #fig = px.line(myline, mymodel_1(my_line))
-    fig = px.line(new_array, x="Time", y="Values", title='Engagement')
+    #fig = px.line(new_array, x="Time", y="Values", title='Engagement')
     fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)', template="plotly_dark")
     fig.update_traces(opacity=0.6)
     return fig
