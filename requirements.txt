@@ -5,6 +5,4 @@ dash-renderer
 dash-table
 pandas
 dash_bootstrap_components
-plotly.express
-plotly.graph_objs
 dash.dependencies
